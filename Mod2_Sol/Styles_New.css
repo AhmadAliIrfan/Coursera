@@ -62,7 +62,7 @@ overflow: auto;
 .Ti1{
 
 border: 2px solid green;
-width : 60%;
+width : 59.8%;
 height: 32px;
 background-color: #ff6666;
 position: absolute;
@@ -75,7 +75,7 @@ overflow: auto;
 .Ti2{
 
 border: 2px solid green;
-width : 60%;
+width : 59.8%;
 height: 32px;
 background-color: #cc0000;
 position: absolute;
@@ -86,7 +86,7 @@ overflow: auto;
 .Ti3{
 
 border: 2px solid green;
-width : 60%;
+width : 59.8%;
 height: 32px;
 background-color: #ffc34d;
 position: absolute;
@@ -141,14 +141,14 @@ width: 98%
 
 div.in1{
 background-color:magenta;
-width: 60%;
+width: 100%;
 }
 div.in2{
 background-color:magenta;
-width: 60%;
+width: 100%;
 }
 div.in3{
 background-color:magenta;
-width: 60%
+width: 100%
 }
 }
