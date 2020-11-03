@@ -90,6 +90,7 @@ background-color: #ffc34d;
 position: absolute;
 bottom: 91%;
 left : 40.5%;
+overflow: auto;
 clear: both;
 
 }
