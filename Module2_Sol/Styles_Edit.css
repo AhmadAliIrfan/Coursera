@@ -32,10 +32,9 @@ color: #990099
 div.out{
 
 border: 2px solid green;
-padding: 15px;
+padding: 20px;
 background-color: orange;
 width : 90%;
-
 margin-left: auto;
 margin-right: auto;
 margin-top: 150px;
@@ -46,47 +45,71 @@ overflow:hidden;
 }
 /*Define Styles*/
 div.in1,div.in2,div.in3{
+box-sizing: content-box;
 border: 2px solid green;
 margin-left: 1px;
 margin-right: 2px;
-padding-right: 2px;
-height: 33px;
-margin-top: 5px;
+padding-top: 30px;
+height: 300px;
+
 float: left;
-text-align: right;
-margin-bottom: 300px;
+text-align: left;
+margin-bottom: 20px;
+position: relative;
 }
 
-.disc{
+.Ti1{
 
 border: 2px solid green;
-background-color: magenta;
-padding-right: 20px;
-text-align: left;
-width: 101.7%;
-height:300px;
-overflow: auto;
-clear: both;
-position: relative;
-right: 2px;
+width : 60%;
+height: 32px;
+background-color: #ff6666;
+position: absolute;
+bottom: 91%;
+left : 40.5%;
 
 }
+
+.Ti2{
+
+border: 2px solid green;
+width : 60%;
+height: 32px;
+background-color: #cc0000;
+position: absolute;
+bottom: 91%;
+left : 40.5%;
+overflow: auto;
+}
+.Ti3{
+
+border: 2px solid green;
+width : 60%;
+height: 32px;
+background-color: #ffc34d;
+position: absolute;
+bottom: 91%;
+left : 40.5%;
+clear: both;
+
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
 
 
 div.in1{
-background-color:#ff6666;
-width: 33%;
+background-color:magenta;
+width: 32%;
 }
 div.in2{
-background-color:#cc0000;
-width: 33%;
+background-color:magenta;
+width: 32%;
 }
 div.in3{
-background-color:#ffc34d;
-width: 33%
+background-color:magenta;
+width: 32%
 }
 
 }
@@ -95,15 +118,15 @@ width: 33%
 @media (min-width: 768px) and (max-width: 991px) {
 
 div.in1{
-background-color:#ff6666;
+background-color:magenta;
 width: 49%;
 }
 div.in2{
-background-color:#cc0000;
+background-color:magenta;
 width: 49%;
 }
 div.in3{
-background-color:#ffc34d;
+background-color:magenta;
 width: 98%
 }
 
@@ -114,15 +137,15 @@ width: 98%
 @media (min-width:0px) and (max-width: 767px){
 
 div.in1{
-background-color:#ff6666;
+background-color:magenta;
 width: 60%;
 }
 div.in2{
-background-color:#cc0000;
+background-color:magenta;
 width: 60%;
 }
 div.in3{
-background-color:#ffc34d;
+background-color:magenta;
 width: 60%
 }
 }
