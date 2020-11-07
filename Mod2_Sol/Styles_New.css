@@ -37,7 +37,7 @@ background-color: orange;
 width : 90%;
 margin-left: auto;
 margin-right: auto;
-margin-top: 150px;
+margin-top: 15%;
 overflow:hidden;
 
 
@@ -47,14 +47,14 @@ overflow:hidden;
 div.in1,div.in2,div.in3{
 box-sizing: content-box;
 border: 2px solid green;
-margin-left: 1px;
-margin-right: 2px;
-padding-top: 30px;
+margin-left: 0.07%;
+margin-right: 0.14%;
+padding-top: 3.9%;
 height: 300px;
 
 float: left;
 text-align: left;
-margin-bottom: 20px;
+margin-bottom: 2.6%;
 position: relative;
 overflow: auto;
 }
