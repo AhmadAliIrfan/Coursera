@@ -7,9 +7,11 @@ font-size: 20px;
 
 }
 
-body{
+body , html{
+
 
 background-image: url("Pizza.jpg");
+background-size: 100% 786px;
 
 
 }
@@ -39,8 +41,6 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 15%;
 overflow:auto;
-
-
 
 }
 /*Define Styles*/
@@ -90,7 +90,6 @@ position: absolute;
 bottom: 91%;
 left : 40.1%;
 
-clear: both;
 overflow: auto;
 }
 
