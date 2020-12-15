@@ -1,0 +1,158 @@
+*{
+
+box-sizing: border-box; 
+font-family: cursive ,sans-serif ,"Comic Sans MS";
+font-weight: bold;
+font-size: 20px;
+
+}
+
+body , html{
+
+
+background-image: url("Pizza.jpg");
+background-size: 100% 786px;
+
+
+}
+ .img{margin-left: 50px;
+ 	margin-top: 20px}
+h1 {
+
+font-family: cursive;
+font-weight: bold;
+font-size: 60px;
+text-align: center;
+background-color : #ff9900;
+padding: 20px;
+border : 10px solid yellow;
+float: center;
+margin-right: auto;
+margin-left: auto;
+width: 400px;
+color: #990099
+}
+
+div.out{
+
+border: 2px solid green;
+padding: 20px;
+background-color: orange;
+width : 90%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15%;
+overflow:auto;
+
+}
+/*Define Styles*/
+div.in1,div.in2,div.in3{
+border: 2px solid green;
+margin-left: 1%;
+padding-top: 5%;
+height: 300px;
+float: left;
+text-align: left;
+margin-bottom: 2.6%;
+position: relative;
+overflow: auto;
+}
+
+.Ti1{
+border: 2px solid green;
+width : 59.8%;
+height: 40px;
+background-color: #ff6666;
+position: absolute;
+bottom: 91%;
+left : 40.8%;
+overflow: auto;
+margin-top: 20px;
+padding-top: 8px;
+}
+
+.Ti2{
+
+border: 2px solid green;
+width : 59.8%;
+height: 40px;
+background-color: #cc0000;
+position: absolute;
+bottom: 91%;
+left : 40.8%;
+overflow: auto;
+margin-top: 20px;
+padding-top: 8px;
+}
+.Ti3{
+
+border: 2px solid green;
+width : 59.8%;
+height: 40px;
+background-color: #ffc34d;
+position: absolute;
+bottom: 91%;
+left : 40.8%;
+margin-top: 20px;
+overflow: auto;
+padding-top: 8px;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+
+
+div.in1{
+background-color:magenta;
+width: 32%;
+}
+div.in2{
+background-color:magenta;
+width: 32%;
+}
+div.in3{
+background-color:magenta;
+width: 32%
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+div.in1{
+background-color:magenta;
+width: 49%;
+}
+div.in2{
+background-color:magenta;
+width: 49%;
+}
+div.in3{
+background-color:magenta;
+width: 98%
+}
+
+}
+
+/********** Small devices only **********/
+
+@media (min-width:0px) and (max-width: 767px){
+
+div.in1{
+background-color:magenta;
+width: 100%;
+padding-top: 10%;
+}
+div.in2{
+background-color:magenta;
+width: 100%;
+padding-top: 10%;
+}
+div.in3{
+background-color:magenta;
+width: 100%;
+padding-top: 10%;	
+}
+}
