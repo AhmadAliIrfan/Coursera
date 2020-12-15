@@ -358,12 +358,9 @@ font-size: 1em;
 @media (max-width: 767px) {
   /* Header */
 .navbar-brand a{
-font-family: "Brush Script MT";
+font-family: "Brush Script MT" , "Cambria" , "Calibri" , "Helvetica";
 font-size: 10vw;
-color: #ffff00;
-text-shadow: 5px 5px #000000;
-margin-top: 35px;
-float: left;
+
 }
   /* End Header */
 
