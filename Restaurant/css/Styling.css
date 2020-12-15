@@ -1,0 +1,413 @@
+*{
+box-sizing: border-box;
+list-style: none;
+margin: 0px;
+}
+
+body{
+background-color:#9f5088;
+
+}
+
+
+#Img{
+    width: 150px;
+    height: 124px;
+    }
+
+
+#header-nav{
+
+min-height: 124px;
+background-color: #8c1c6c;
+border-color: #8c1c6c;
+
+}
+.navbar-brand a{
+font-family: "Bauhaus 93";
+font-size: 3.5em;
+color: #ffff00;
+text-shadow: 5px 5px #000000;
+margin-top: 30px;
+float: left;
+}
+
+#But{
+position: relative;
+top: 35px;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #93f20c;
+  background-color: #c268bc;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+#nav-list{
+
+margin-top: -5px;
+}
+
+#nav-list li a{
+box-sizing: content-box;
+margin-top: 40px;
+font-size: 1.7em;
+font-family: "Agency FB";
+font-weight:  bolder;
+color: #93f20c;
+text-shadow: 3px 3px #000000;
+}
+
+#nav-list a:hover{
+
+background-color: blue;
+border-radius: 5px;
+}
+
+#nav-list a{
+text-align: left;
+color: #8c1c6c;
+
+}
+
+.V2{
+
+float: left;	
+
+}
+
+#nav-list li span{
+padding-right: 1rem;
+}
+
+.navbar-brand  a:hover, a:focus {
+	text-decoration: none;
+
+}
+
+#Base{
+
+	background-color: #5604b5;
+	height: auto;
+	box-shadow: 0px 0px 10px 10px black;
+
+}
+
+.Banner{
+
+max-width: 100%;
+height: auto;
+
+box-shadow: 0px 0px 10px 5px black;
+
+}
+.Ban{
+margin-top: 20px;	
+width: 114rem;
+height: 660px;
+border:10px;
+max-width: 100%;
+height: auto;
+
+
+}
+
+
+.Info{
+
+font-size: 2em;
+font-family: "Cambria" , "Helvetica";
+text-align: center;
+font-weight: bolder;
+color: black;
+background-color: #fdc800;
+border : 2px solid black;
+border-radius: 4px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.content{
+margin-bottom: 20px;
+}
+
+.Deals{
+margin-right: 1rem;
+margin-left: 2rem;
+border: 2px solid black;
+border-radius: 4px;
+box-shadow: 0px 0px 5px 3px black;
+
+}
+
+.map{
+
+width: 100%;	
+min-height: 100%;
+}
+.Style{
+width: 100%;
+border: 3px solid black;
+border-radius: 4px;
+box-shadow: 0px 0px 5px 3px black;
+margin-bottom: 50px;
+}
+.Sections{
+
+float: left;
+margin-left: 3.5%;	
+width: 28.5%;
+border-right: 1px solid black;
+height: 150px;
+}
+.Sectionsalt{
+
+float: left;
+margin-left: 3.5%;
+margin-top: 30px;  
+width: 28.5%;
+height: 150px;
+}
+
+.Sections span{
+
+padding-top: 10px;
+margin-left: 2%;
+margin-right:2%;
+
+}
+
+.Hover a:hover{
+text-decoration: none;
+border-radius: 4px;
+background-color: #fcd800;
+}
+
+.Sections h4{
+
+margin-top: 30px;	
+font-weight: bold;
+font-size: 2em;
+font-family: "Cambria" , "Helvetica";
+color: white;
+
+}
+
+.Hover a{ 
+font-family: "Cambria" , "Helvetica"; 
+font-size: 1.3em;
+color: white;
+
+}
+
+.fa {
+  padding: 27px 20px 20px 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 32%;
+  height: 70px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+/* Twitter */
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram{
+
+  background-color: #125688;
+  color:white;
+}
+
+.Copy{
+
+font-size: 1.3em;
+margin-top: 50px;
+text-align: center;
+font-family:"Cambria" , "Helvetica";
+color: white;
+}
+
+.panel-footer{
+background-color: #222;
+border-color: #222;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #Img {
+    
+    width: 100px;
+    height: 80px;
+    }
+
+ .Log{
+ 	max-width: 100%;
+ 	max-height:100%;
+ 	margin: 15px 5px 15px 0px;
+
+ }   
+#nav-list li {
+position: relative;
+left: 2rem;
+
+}
+.navbar-brand , .Log{
+
+position: relative;
+right: 2rem;
+
+}
+  /* End Header */
+
+.Im1{
+width: 280px;
+height: 240px;
+margin-left: 20px;
+}
+.Im2{
+width: 280px;
+height: 240px;
+margin-left: 15px;
+}
+
+.V2{
+width: inherit;
+height:240px;
+} 
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.navbar-brand a{
+	
+font-size: 2.7em;
+
+}
+.navbar-brand{
+
+position: relative;
+right: 2rem;
+
+}
+#nav-list li a{
+
+font-size: 1.4em;
+
+}
+#nav-list li {
+position: relative;
+left: 2rem;
+
+}
+
+/* End Header */
+
+.Deals{
+	margin-bottom: 20px;
+	margin-left: 20rem;
+	margin-right: 20rem;
+	display: block;
+
+}
+
+.Sections h4{
+
+
+font-size: 1.5em;
+
+}
+
+.Hover a{  
+font-size: 1em; 
+}
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  /* End Header */
+
+
+
+.Deals{
+	margin-bottom: 20px;
+	width: 50%;
+	position: relative;
+	left: 20%;
+
+}
+
+.Sections h4{
+
+
+font-size: 1.3em;
+
+}
+
+.Hover a{  
+font-size: 1.8vw; 
+}
+
+.fa{
+
+ padding: 8px 8px 8px 10px;
+  font-size: 30px;
+  
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 30%;
+  height: 30px;
+
+}
+
+.Sectionsalt{
+
+
+margin-left: 3.5%;
+margin-top: 30px;  
+width: 25%;
+height: 150px;
+
+}
+
+.Sections{
+
+  
+width: 30%;
+}
+
+}

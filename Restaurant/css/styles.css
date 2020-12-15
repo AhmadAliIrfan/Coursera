@@ -1,0 +1,126 @@
+body{
+
+background-color:#3f00f2;
+
+
+}
+
+
+
+
+.navbar{
+
+background-color: #8c1c6c;
+border-radius: 0;
+border: 0px;
+
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  
+  text-decoration: none;
+
+
+ }
+
+.Alpha{
+
+font-family: "Bauhaus 93";
+font-size: 3.5em;
+padding-left: 10px;
+position: relative;
+bottom: 30px;
+color:#ffff00;
+text-shadow:5px 5px #000000;
+
+
+}
+
+div.Con {
+float: right;
+width: 120%;
+position: relative;
+bottom: 27px;
+
+
+}
+
+
+.AA div a{
+
+
+text-decoration: none;
+font-family: "Agency FB";
+font-weight:  bolder;
+color: #93f20c;
+text-shadow: 2px 2px #000000;
+position: relative;
+left: 120%;
+bottom: 20px;
+float: left;
+margin-right: 7%;
+}
+
+
+span.Icon{
+margin-right: 15px;
+
+}
+
+img.banner{
+
+height: 200px;
+width: 50%;
+clear: both;
+}
+img.Mc{
+width: 50%;
+height: 291.5px;
+
+}
+img.bi{
+width:50%;
+height: 492px;
+position: relative;
+bottom: 100%;
+left: 50% 
+
+}
+
+div.Large{
+
+width:100%;
+height: 500px;
+margin-bottom: 3%;
+
+}
+div#End{
+width:100%;
+height: 200px;
+margin-bottom: 0px;
+border-radius: 0px;
+}
+div#MIL{
+width:93.4%;
+height: 200px;
+margin-left: 3%;
+border-right: 3%;
+}
+div.Med{
+width:45%;
+height: 150px;
+margin-left: 3.3%;
+margin-bottom: 3%;
+}
+div.Small{
+width:20%;
+height: 150px;
+margin-left: 3.8%;
+margin-bottom: 3%;}
+div.background{
+float: left;
+background-color: #ffffff;
+border: 4px solid black;
+border-radius: 10px
+}
