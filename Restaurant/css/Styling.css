@@ -24,11 +24,11 @@ border-color: #8c1c6c;
 
 }
 .navbar-brand a{
-font-family: "Bauhaus 93";
-font-size: 3.5em;
+font-family: "Brush Script MT";
+font-size: 3.7em;
 color: #ffff00;
 text-shadow: 5px 5px #000000;
-margin-top: 30px;
+margin-top: 35px;
 float: left;
 }
 
@@ -357,7 +357,14 @@ font-size: 1em;
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
-
+.navbar-brand a{
+font-family: "Brush Script MT";
+font-size: 10vw;
+color: #ffff00;
+text-shadow: 5px 5px #000000;
+margin-top: 35px;
+float: left;
+}
   /* End Header */
 
 
