@@ -1,0 +1,132 @@
+*{
+box-sizing: border-box;
+list-style: none;
+margin: 0px;
+}
+
+body{
+background-color:#9f5088;
+
+}
+
+
+#Img{
+
+background-image: url('../Images/Dine.png');
+background-repeat: no-repeat;
+width:150px;
+height:124px;
+}
+
+
+#header-nav{
+
+height: 124px;
+background-color: #8c1c6c;
+border-color: #8c1c6c;
+
+}
+.navbar-brand a{
+font-family: "Bauhaus 93";
+font-size: 3.5em;
+color: #ffff00;
+text-shadow: 5px 5px #000000;
+margin-top: 30px;
+padding-left: 10px;
+float: left;
+}
+
+#But{
+
+position: relative;
+top: 32px;
+
+}
+
+.Menu{
+float: right;
+
+}
+.Menu li{
+
+	margin-top: -7px;
+	padding-left: 5rem;
+	float: left;
+}
+
+
+.Menu li span{
+
+padding-right: 1rem;
+}
+
+.Menu li a{
+
+font-size: 2em;
+font-family: "Agency FB";
+font-weight:  bolder;
+color: #93f20c;
+text-shadow: 3px 3px #000000;
+}
+
+.Menu li a:hover, a:focus {
+	text-decoration: none;
+
+}
+.navbar-brand  a:hover, a:focus {
+	text-decoration: none;
+
+}
+
+#Base{
+
+	background-color: white;
+	height: auto;
+	box-shadow: 0px 0px 10px 10px black;
+
+}
+
+.Banner{
+
+max-width: 100%;
+height: auto;
+
+}
+.Ban{
+margin-top: 20px;	
+width: 114rem;
+height: 660px;
+border:10px;
+background-color:pink;	
+max-width: 100%;
+height: auto;
+
+
+}
+
+
+.Info{
+
+font-size: 2em;
+font-family:"Lucida Console", "Courier New", monospace;
+text-align: center;
+font-weight: bolder;
+color: black;
+background-color: #ffca00;
+border : 2px solid black;
+border-radius: 4px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.content{
+margin-bottom: 20px;
+}
+
+.Deals{
+margin-right: 1rem;
+margin-left: 2rem;
+border: 2px solid black;
+
+
+}
