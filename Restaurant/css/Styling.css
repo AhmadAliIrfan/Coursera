@@ -67,6 +67,14 @@ top: 35px;
 margin-top: -5px;
 }
 
+.panel-footer{
+position: relative;
+bottom: 0;
+left: 0;
+width: 100%;
+
+}
+
 #nav-list li a{
 
 margin-top: 40px;
