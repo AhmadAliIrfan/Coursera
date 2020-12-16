@@ -426,7 +426,7 @@ margin-bottom: 20px;
 @media (max-width: 767px) {
   /* Header */
 .navbar-brand a{
-font-size: 60px;
+font-size: 11vw;
 
 }
   /* End Header */
@@ -450,18 +450,18 @@ font-size: 1.2em;
 }
 
 .Hover a{  
-font-size: 10px; 
+font-size: 2vw; 
 }
 
 .fa{
 
- padding: 8px 8px 8px 10px;
+ padding: 10px 1px 1px 1px;
   font-size: 30px;
   
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  width: 30%;
+  width: 25%;
   height: 30px;
 
 }
