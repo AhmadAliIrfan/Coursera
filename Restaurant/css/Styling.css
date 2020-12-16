@@ -55,7 +55,7 @@ margin-top: -5px;
 }
 
 #nav-list li a{
-box-sizing: content-box;
+
 margin-top: 40px;
 font-size: 1.7em;
 font-family: "Agency FB";
@@ -417,7 +417,7 @@ margin-bottom: 20px;
   /* Header */
 .navbar-brand a{
 font-family: "Agency FB","Helvetica","Cambria";
-font-size: 10vw;
+font-size: 1.7em;
 
 }
   /* End Header */
@@ -477,5 +477,9 @@ width: 100%;
 height: auto;
 
 }
+#nav-list li a{
+font-size: 1.3em;
+}
+
 
 }
