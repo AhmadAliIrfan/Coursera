@@ -1,12 +1,12 @@
 @font-face{
 
-font-family: Agency FB;
+font-family: "Custom1";
 src: url(../fonts/AGENCYB.TTF);
 
 }
 
 @font-face{
-font-family: "Bauhaus 93";
+font-family: "Custom2";
 src:url(../fonts/BAUHS93.TTF);  
 }
 
@@ -38,7 +38,7 @@ border-color: #000000;
 
 }
 .navbar-brand a{
-font-family: "Bauhaus 93","Helvetica" , "Courier";
+font-family: "Custom2";
 font-size: 3.7em;
 color: #ffff00;
 text-shadow: 5px 6px #000000;
@@ -71,7 +71,7 @@ margin-top: -5px;
 
 margin-top: 40px;
 font-size: 1.7em;
-font-family: "Agency FB";
+font-family: "Custom1";
 font-weight:  bolder;
 color: #93f20c;
 text-shadow: 3px 4px #000000;
@@ -143,7 +143,7 @@ height: auto;
 .Info{
 
 font-size: 2em;
-font-family: "Agency FB","Cambria" , "Helvetica";
+font-family: "Custom1";
 text-align: center;
 font-weight: bolder;
 color: black;
@@ -217,13 +217,13 @@ background-color: #fcd800;
 margin-top: 30px;	
 font-weight: bold;
 font-size: 2em;
-font-family: "Agency FB","Cambria" , "Helvetica";
+font-family: "Custom1";
 color: white;
 
 }
 
 .Hover a{ 
-font-family: "Agency FB","Cambria" , "Helvetica"; 
+font-family: "Custom1"; 
 font-size: 1.3em;
 color: white;
 
@@ -271,7 +271,7 @@ font-size: 1.3em;
 margin-top: 50px;
 padding-bottom: 20px;
 text-align: center;
-font-family:"Agency FB","Helvetica","Cambria";
+font-family:"Custom1";
 color: white;
 }
 
