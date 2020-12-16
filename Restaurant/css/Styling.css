@@ -5,7 +5,7 @@ margin: 0px;
 }
 
 body{
-background-color:#9f5088;
+background-color:#481ee0;
 
 }
 
@@ -20,7 +20,10 @@ background-color:#9f5088;
 
 min-height: 124px;
 background-color: #8c1c6c;
-border-color: #8c1c6c;
+border-color: #000000;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+
 
 }
 .navbar-brand a{
@@ -28,7 +31,7 @@ font-family: "Agency FB","Brush Script MT","Helvetica" , "Courier";
 font-size: 3.7em;
 font-weight: bolder;
 color: #ffff00;
-text-shadow: 5px 5px #000000;
+text-shadow: 5px 6px #000000;
 margin-top: 35px;
 float: left;
 }
@@ -61,7 +64,7 @@ font-size: 1.7em;
 font-family: "Agency FB";
 font-weight:  bolder;
 color: #93f20c;
-text-shadow: 3px 3px #000000;
+text-shadow: 3px 4px #000000;
 }
 
 #nav-list a:hover{
