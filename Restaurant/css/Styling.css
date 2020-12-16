@@ -395,7 +395,7 @@ font-size: 1.5em;
 }
 
 .Hover a{  
-font-size: 1em; 
+font-size: 15px; 
 }
 
 .OddIm{
@@ -417,7 +417,7 @@ margin-bottom: 20px;
   /* Header */
 .navbar-brand a{
 font-family: "Agency FB","Helvetica","Cambria";
-font-size: 1.7em;
+font-size: 45px;
 
 }
   /* End Header */
@@ -435,12 +435,12 @@ font-size: 1.7em;
 .Sections h4{
 
 
-font-size: 1.3em;
+font-size: 1.2em;
 
 }
 
 .Hover a{  
-font-size: 0.8em; 
+font-size: 10px; 
 }
 
 .fa{
@@ -459,7 +459,8 @@ font-size: 0.8em;
 .Sectionsalt{
 
 
-margin-left: 3.5%;
+margin-left: auto;
+margin-right: auto;
 margin-top: 30px;  
 width: 25%;
 height: 150px;
@@ -469,7 +470,7 @@ height: 150px;
 .Sections{
 
   
-width: 30%;
+width: 33%;
 }
 
 .Resize{
@@ -477,9 +478,7 @@ width: 100%;
 height: auto;
 
 }
-#nav-list li a{
-font-size: 1.3em;
-}
+
 
 
 }
