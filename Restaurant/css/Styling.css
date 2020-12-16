@@ -1,3 +1,15 @@
+@font-face{
+
+font-family: Agency FB;
+src: url(fonts/AGENCYB.TTF);
+
+}
+
+@font-face{
+font-family: "Bauhaus 93";
+src:url(fonts/BAUHS93.TTF);  
+}
+
 *{
 box-sizing: border-box;
 list-style: none;
@@ -26,9 +38,8 @@ border-color: #000000;
 
 }
 .navbar-brand a{
-font-family: "Agency FB","Brush Script MT","Helvetica" , "Courier";
+font-family: "Bauhaus 93","Helvetica" , "Courier";
 font-size: 3.7em;
-font-weight: bolder;
 color: #ffff00;
 text-shadow: 5px 6px #000000;
 margin-top: 35px;
@@ -329,6 +340,12 @@ position: relative;
 left: 2rem;
 
 }
+
+.navbar-brand a{
+
+font-size: 3.3em;
+
+}
 .navbar-brand , .Log{
 
 position: relative;
@@ -409,8 +426,7 @@ margin-bottom: 20px;
 @media (max-width: 767px) {
   /* Header */
 .navbar-brand a{
-font-family: "Agency FB","Helvetica","Cambria";
-font-size: 45px;
+font-size: 60px;
 
 }
   /* End Header */
