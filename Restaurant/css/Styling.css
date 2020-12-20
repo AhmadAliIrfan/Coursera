@@ -464,6 +464,11 @@ font-size: 1.4em;
 
 }
 
+.Contact{
+font-size: 25px;
+
+
+}
 
 /* End Header */
 
@@ -552,7 +557,10 @@ font-size: 2vw;
   height: 30px;
 
 }
+.Contact{
 
+font-size: 30px;
+}
 .Sectionsalt{
 
 
