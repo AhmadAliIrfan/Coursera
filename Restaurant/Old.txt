@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dine In Bistro</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/Styling.css">
+</head>
+<body>
+<header> <!-- The Nav Bar is contained within the header --> 
+
+<nav id="header-nav" class="navbar navbar-default">  <!-- The Nav Bar is contains an ID header-nav and a class navbar and navbar has different options to choose form; We have provided a header id to the nav bar in order to change the color  -->
+<div class="container">
+
+<div class="navbar-header" > 
+<a href="#" class="pull-left visible-md visible-lg" >
+<div id="LogoImg">
+</div>  <!-- Image Placement Ends Here Now for the Title -->
+	</a>
+
+<div class="navbar-brand" >
+	
+<a href="#" class="Ti"><h1>Dine In Bistro</h1></a>
+
+</div>	
+
+<ul class="tx">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Menu</a></li>
+<li><a href="#">Contact</a></li>	
+
+</ul>
+
+</div>
+	
+
+</nav>	
+
+
+
+
+</header>
+
+
+
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*{
+
+box-sizing: border-box;	
+margin: 0px 0px 0px 0px
+}
+#header-nav{
+
+background-color: #8c1c6c;
+height: 125px;
+}
+
+#LogoImg{
+background-image: url('../Images/Dine.png');
+background-repeat: no-repeat; 
+width: 150px;
+height: 124px;
+}
+
+
+.Ti h1{
+font-family: "Bauhaus 93";
+font-size: 3.5em;
+margin-top: 12px;
+color: yellow;
+text-shadow:5px 5px #000000;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  
+  text-decoration: none;
+}
+
+.tx{	
+background-color: orange;
+list-style: none;	
+float: left;
+padding-left: 0px;
+width: 53%;}
+
+.tx li{
+float: left;
+margin-left: 7%;
+margin-top: 46px; 
+}
+
+.tx li a{
+
+font-size: 2em;
+padding: 0 20px; 
+text-decoration: none;
+font-family: "Agency FB";
+font-weight:  bolder;
+color: #93f20c;
+text-shadow: 2px 2px #000000;	
+} 
+
+.navbar-header{
+background-color: red;
+}
+
+
+
+
+
+
+
+
+
